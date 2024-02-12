@@ -12,4 +12,10 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/anandkunalmishra/.nuget/packages/" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nunit/4.0.1/build/NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit/4.0.1/build/NUnit.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNUnit_ConsoleRunner Condition=" '$(PkgNUnit_ConsoleRunner)' == '' ">/Users/anandkunalmishra/.nuget/packages/nunit.consolerunner/3.17.0</PkgNUnit_ConsoleRunner>
+  </PropertyGroup>
 </Project>

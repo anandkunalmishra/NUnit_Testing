@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "crFcFM94Ou2htVg5wqFMeO2pLS8SrhrKg00wFSuGzKtyEVLDZ/bvQOrg0gNfl2kBxtRuqlVJftky4g65pyxiSQ==",
+  "dgSpecHash": "FmJm+NX9oIItixp55ucJ4s/buptsUHezNb3Ab7YaH5/nL+EEle+wZJcRSWwOAqZNkjbbR0tpdspgloyrPnZO4g==",
   "success": true,
   "projectFilePath": "/Users/anandkunalmishra/Projects/NUnit_Testing/NUnit_Testing.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/anandkunalmishra/.nuget/packages/nunit/4.0.1/nunit.4.0.1.nupkg.sha512",
+    "/Users/anandkunalmishra/.nuget/packages/nunit.consolerunner/3.17.0/nunit.consolerunner.3.17.0.nupkg.sha512"
+  ],
   "logs": []
 }
