@@ -1,4 +1,4 @@
-<h4>What is <h4>NUnit_Testing</h4>?
+<h4>What is NUnit_Testing</h4>?
 
 NUnit is a free, open-source, and highly popular unit testing framework specifically designed for the .NET ecosystem, including C#.
 It empowers developers to write automated tests for individual units of code (functions, classes, modules) to ensure they function correctly and produce the expected outputs under various conditions.
@@ -31,3 +31,13 @@ NUnit is like a helper, not a replacement for building cool things with your cod
 Testing is important, but it's just one part of making great code.
 As you get older, you'll learn more about different ways to test code, but NUnit is a good friend to start with!
 I hope this explanation makes NUnit Testing in C# easier to understand for a 5-year-old!
+
+
+
+
+<h2> Important Note </h2>
+NUnit doesn't rely on a main function because it utilizes test runners:
+      -> Test Runners: Tools like the NUnit Console or Visual Studio Test Explorer act as the entry point for execution.
+      -> Test Fixtures: Classes marked with [TestFixture] contain individual test cases.
+      -> Test Methods: Methods marked with [Test] within test fixtures represent specific tests to be run.
+
